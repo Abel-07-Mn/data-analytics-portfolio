@@ -13,6 +13,8 @@
 Using advanced SQL Window Functions (cohort partitioning) and Google BigQuery, I isolated the exact month each customer made their first purchase to split the consumer base into "New" vs. "Returning" cohorts.
 
 * **Interactive Dashboard:** [👉 Click here to view my interactive Tableau Dashboard](https://public.tableau.com/views/E-CommerceCustomerRetentionAnalysis/Sheet1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+* * **Executive Presentation:** [📊 Click here to view the Google Slides Deck](https://docs.google.com/presentation/d/1ChNI6ouefXILf5Mp1zrqnRgyvR56voNWBn8Elvog9Lg/edit?usp=sharing)
+
 
 **Key Finding:** The analysis disproved the initial retention panic. In peak operational months like June 2011, returning customers accounted for over 75% of the total active shopping audience (749 returning vs. 242 new). The real revenue driver is seasonal holiday surges, masking a steady drop in new user acquisition during off-peak seasons.
 
