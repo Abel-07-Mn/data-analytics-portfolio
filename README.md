@@ -47,3 +47,26 @@ Using **Python (Pandas, NumPy, Seaborn, and Matplotlib)**, I calculated a Pearso
 ## 🚀 4. Act (Strategic Policy Recommendations)
 1. **Prioritize Educational Capital:** Advise international development funds to heavily tie health grants to national schooling attendance infrastructure.
 2. **Targeted Off-Peak Health Interventions:** Allocate specific preventative medical resources to regions displaying declining schooling metrics before adult mortality rates begin to spike.
+
+---
+
+# US Retail Sales Operations & Profitability Dashboard (Business Intelligence Case Study)
+
+## 🎯 1. Ask
+**Business Problem:** A domestic retail firm lacked unified visualization tools to track its operational profitability, resulting in masked financial losses across specific US geographic zones and product categories.
+**Objective:** Design a dynamic, interactive executive BI dashboard that unifies domestic market metrics and isolates underperforming financial nodes for senior management intervention.
+
+## 🗄️ 2. Prepare & Process
+* **Dataset:** US Superstore Sales and Transaction dataset containing over 9,000 multi-field order records.
+* **BI Architecture (Tableau):** Engineered clean spatial configurations mapped down to localized US state bubbles, built custom sub-category ranking modules, and configured dynamic cross-sheet relational filters.
+
+## 📈 3. Analyze & Share
+I combined isolated data metrics into a unified, interactive Executive Dashboard interface focused on US territories.
+
+* **Interactive Dashboard Portal:** [📊 Click here to view my Live Enterprise Dashboard on Tableau Public](https://public.tableau.com/views/EnterpriseSalesProfitabilityDashboard/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+**Key Finding:** The dashboard immediately exposed critical operational "leaks." While top-line national revenue appeared healthy, geographic analysis isolated deep operational losses in states like Texas. By utilizing cross-filtering actions, I isolated the exact root cause: the **Tables sub-category** represents a systemic profit drain across low-margin US territories due to flawed regional pricing models.
+
+## 🚀 4. Act (Executive Recommendations)
+1. **Immediate Price Restructuring:** Enact an immediate price-floor freeze or margin correction on the Tables inventory segment, specifically within underperforming US state clusters like Texas.
+2. **Dynamic UI/UX Infrastructure:** Deploy this multi-sheet operational layout across regional managerial teams to track domestic baseline inventory targets in real-time.
