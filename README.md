@@ -40,7 +40,7 @@ Using advanced SQL Window Functions (cohort partitioning) and Google BigQuery, I
 ## 📈 3. Analyze & Share
 Using **Python (Pandas, NumPy, Seaborn, and Matplotlib)**, I calculated a Pearson Correlation Matrix and engineered an automated linear regression scatter model.
 
-* **Interactive Code Workspace:** [🐍 Click here to view my Python Jupyter Notebook on Kaggle](https://www.kaggle.com/code/abelmaina/the-global-health-analytics-case-study)
+* **Interactive Code Workspace:**  [🐍 Click here to view my Python Jupyter Notebook on Kaggle](https://www.kaggle.com/code/abelmaina/the-global-health-analytics-case-study)
 
 **Key Finding:** The analysis uncovered a powerful positive correlation of **0.75 between years of Schooling and Life Expectancy**, vastly outperforming raw economic indicators like GDP. This visually and mathematically proves that educational infrastructure is a superior long-term predictor of public health outcomes compared to isolated national wealth.
 
@@ -73,3 +73,4 @@ I combined isolated data metrics into a unified, interactive Executive Dashboard
 
  '- [Employee Attrition & Retention Cost Analysis](./attrition-analysis/)   
  'Remove tracking parameters from Kaggle link'
+'Fix Kaggle link properly'
