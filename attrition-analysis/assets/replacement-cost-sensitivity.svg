@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" viewBox="0 0 960 434">
+<title id="title">Replacement-cost estimates depend on the assumption</title>
+<desc id="desc">Illustrative sensitivity range applied to leavers&#x27; annualized income</desc>
+<rect width="100%" height="100%" fill="#F7F8F5"/>
+<text x="42" y="52" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#173D3A">Replacement-cost estimates depend on the assumption</text>
+<text x="42" y="84" font-family="Arial, sans-serif" font-size="14" fill="#5B6B69">Illustrative sensitivity range applied to leavers&#x27; annualized income</text>
+<text x="42" y="161" font-family="Arial, sans-serif" font-size="15" fill="#263A38">0.5× annual income (237 leavers)</text>
+<rect x="255" y="138" width="500" height="24" rx="5" fill="#E3E9E5"/>
+<rect x="255" y="138" width="125.0" height="24" rx="5" fill="#7B5EA7"/>
+<text x="769" y="156" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#173D3A">6,807,246 income units</text>
+<text x="922" y="156" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6B69"></text>
+<text x="42" y="215" font-family="Arial, sans-serif" font-size="15" fill="#263A38">1.0× annual income (237 leavers)</text>
+<rect x="255" y="192" width="500" height="24" rx="5" fill="#E3E9E5"/>
+<rect x="255" y="192" width="250.0" height="24" rx="5" fill="#7B5EA7"/>
+<text x="769" y="210" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#173D3A">13,614,492 income units</text>
+<text x="922" y="210" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6B69"></text>
+<text x="42" y="269" font-family="Arial, sans-serif" font-size="15" fill="#263A38">1.5× annual income (237 leavers)</text>
+<rect x="255" y="246" width="500" height="24" rx="5" fill="#E3E9E5"/>
+<rect x="255" y="246" width="375.0" height="24" rx="5" fill="#7B5EA7"/>
+<text x="769" y="264" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#173D3A">20,421,738 income units</text>
+<text x="922" y="264" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6B69"></text>
+<text x="42" y="323" font-family="Arial, sans-serif" font-size="15" fill="#263A38">2.0× annual income (237 leavers)</text>
+<rect x="255" y="300" width="500" height="24" rx="5" fill="#E3E9E5"/>
+<rect x="255" y="300" width="500.0" height="24" rx="5" fill="#7B5EA7"/>
+<text x="769" y="318" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#173D3A">27,228,984 income units</text>
+<text x="922" y="318" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6B69"></text>
+<text x="42" y="394" font-family="Arial, sans-serif" font-size="12" fill="#5B6B69">The dataset does not specify a currency. Estimates are not a company expense ledger.</text>
+</svg>

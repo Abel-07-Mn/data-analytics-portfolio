@@ -1,76 +1,43 @@
-# E-Commerce Customer Retention & Growth Analysis
+# Abel Maina | Data Analytics Portfolio
 
-## 🎯 1. Ask
-**Business Problem:** The business observed an overall decline in month-over-month transactional sales volume and feared a massive customer retention crisis. 
-**Objective:** Analyze historical retail transaction data to determine if revenue drops are caused by poor customer retention or a shrinking pipeline of new user acquisitions.
+Business questions first. Reproducible analysis, clear visual evidence, and recommendations that respect what the data can—and cannot—say.
 
-## 🗄️ 2. Prepare & Process
-* **Dataset:** 541,909 raw transactional records from a UK-based online retail store.
-* **Data Cleaning (SQL):** Handled data quality issues by dropping 135,080 records with missing `CustomerID` attributes, eliminating exact row duplicates using `DISTINCT`, and filtering out negative values in `Quantity` and `UnitPrice` representing system test errors or cancellations. 
-* **Final Pristine Dataset:** 392,692 high-quality analytical rows.
+This portfolio contains independent analyses of public or anonymized practice datasets. They are portfolio case studies, not client engagements.
 
-## 📈 3. Analyze & Share
-Using advanced SQL Window Functions (cohort partitioning) and Google BigQuery, I isolated the exact month each customer made their first purchase to split the consumer base into "New" vs. "Returning" cohorts.
+## Featured projects
 
-* **Interactive Dashboard:** [👉 Click here to view my interactive Tableau Dashboard](https://public.tableau.com/views/E-CommerceCustomerRetentionAnalysis/Sheet1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-* * **Executive Presentation:** [📊 Click here to view the Google Slides Deck](https://docs.google.com/presentation/d/1ChNI6ouefXILf5Mp1zrqnRgyvR56voNWBn8Elvog9Lg/edit?usp=sharing)
+### 1. From Lead to Reliable Seller
 
+**Question:** Which seller-acquisition sources do more than fill the pipeline—and do those sellers reach their first delivered order?
 
-**Key Finding:** The analysis disproved the initial retention panic. In peak operational months like June 2011, returning customers accounted for over 75% of the total active shopping audience (749 returning vs. 242 new). The real revenue driver is seasonal holiday surges, masking a steady drop in new user acquisition during off-peak seasons.
+Connects Olist's marketing-qualified lead funnel to closed deals, sellers, and the sellers' first 90 days of marketplace orders. Includes a SQLite model, SQL analysis, reproducible Python pipeline, cohort maturity checks, and three evidence-based SVG visuals.
 
-## 🚀 4. Act (Business Recommendations)
-1. **Pivot Marketing Budget:** Shift capital away from retention campaigns and heavily target top-of-funnel *New Customer Acquisition* during slow mid-year periods (Q2/Q3).
-2. **First-Purchase Incentives:** Introduce introductory discounts or welcome bundles to increase the shrinking baseline cohort sizes observed mid-year.
-3. **Reward VIP Cohorts:** Design an automated loyalty tier targeting the high-performing 75% returning customer base to increase their average order value (AOV).
+**Finding:** Paid search closed 12.3% of qualified leads versus 11.8% for organic search. Among closed sellers with a full 90-day follow-up window, paid search activated 50.0% versus 33.3% for organic search—but the first delivered order arrived later at the median (48 vs. 38.5 days). The data includes no campaign spend, so it cannot support an ROI claim.
 
----
+[Read the full case study](projects/from-lead-to-reliable-seller/README.md) · SQL · Python · SQLite · Funnel and cohort analysis
 
-# Global Health Longevity Drivers Analysis (Social Good Case Study)
+### 2. Employee Attrition: Risk Is Not the Same as Volume
 
-## 🎯 1. Ask
-**Business/Social Problem:** Determining what socioeconomic factors actually drive human longevity to help global health organizations allocate resources effectively.
-**Objective:** Analyze World Health Organization (WHO) historical records using advanced statistical scripting to identify variables with the highest correlation to life expectancy.
+**Question:** Should a people team prioritize the department with the highest attrition rate, the most leavers, or a workforce condition associated with leaving?
 
-## 🗄️ 2. Prepare & Process
-* **Dataset:** Historical global health metrics compiled by the WHO across 193 countries.
-* **Data Engineering (Python):** 
-  * Cleaned hidden trailing whitespace characters from columns using `.str.strip()`.
-  * Preserved data integrity by handling missing metrics via **Median Imputation** (`.fillna()`) across 448 rows of missing GDP data and 10 rows of missing Life Expectancy metrics.
+Compares employee attrition rates with headcount and models how replacement-cost assumptions change a cost estimate. The source is clearly identified as synthetic, and the analysis avoids assigning a currency or claiming cause.
 
-## 📈 3. Analyze & Share
-Using **Python (Pandas, NumPy, Seaborn, and Matplotlib)**, I calculated a Pearson Correlation Matrix and engineered an automated linear regression scatter model.
+**Finding:** Sales had the highest department attrition rate (20.6%), while Research & Development had the largest number of leavers (133). The overtime association was 30.5% vs. 10.4%, but it is descriptive—not proof of causation.
 
-* **Interactive Code Workspace:**  [🐍 Click here to view my Python Jupyter Notebook on Kaggle](https://www.kaggle.com/code/abelmaina/the-global-health-analytics-case-study)
+[Read the full case study](attrition-analysis/README.md) · Python · Data quality · Scenario analysis · Visual storytelling
 
-**Key Finding:** The analysis uncovered a powerful positive correlation of **0.75 between years of Schooling and Life Expectancy**, vastly outperforming raw economic indicators like GDP. This visually and mathematically proves that educational infrastructure is a superior long-term predictor of public health outcomes compared to isolated national wealth.
+## How I work
 
-## 🚀 4. Act (Strategic Policy Recommendations)
-1. **Prioritize Educational Capital:** Advise international development funds to heavily tie health grants to national schooling attendance infrastructure.
-2. **Targeted Off-Peak Health Interventions:** Allocate specific preventative medical resources to regions displaying declining schooling metrics before adult mortality rates begin to spike.
+- Translate a broad concern into measurable business questions.
+- Check the grain, keys, missing values, and follow-up window before calculating rates.
+- Show the numerator and denominator, not percentages alone.
+- Separate observed association from causal explanation.
+- Recommend the next decision or measurement step, and state what additional data is needed.
 
----
+## Tools
 
-# US Retail Sales Operations & Profitability Dashboard (Business Intelligence Case Study)
+SQL and BigQuery · Python · Tableau · SQLite · Data cleaning · Cohort and funnel analysis · Dashboard storytelling
 
-## 🎯 1. Ask
-**Business Problem:** A domestic retail firm lacked unified visualization tools to track its operational profitability, resulting in masked financial losses across specific US geographic zones and product categories.
-**Objective:** Design a dynamic, interactive executive BI dashboard that unifies domestic market metrics and isolates underperforming financial nodes for senior management intervention.
+## Earlier practice work
 
-## 🗄️ 2. Prepare & Process
-* **Dataset:** US Superstore Sales and Transaction dataset containing over 9,000 multi-field order records.
-* **BI Architecture (Tableau):** Engineered clean spatial configurations mapped down to localized US state bubbles, built custom sub-category ranking modules, and configured dynamic cross-sheet relational filters.
-
-## 📈 3. Analyze & Share
-I combined isolated data metrics into a unified, interactive Executive Dashboard interface focused on US territories.
-
-* **Interactive Dashboard Portal:** [📊 Click here to view my Live Enterprise Dashboard on Tableau Public](https://public.tableau.com/views/EnterpriseSalesProfitabilityDashboard/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-
-**Key Finding:** The dashboard immediately exposed critical operational "leaks." While top-line national revenue appeared healthy, geographic analysis isolated deep operational losses in states like Texas. By utilizing cross-filtering actions, I isolated the exact root cause: the **Tables sub-category** represents a systemic profit drain across low-margin US territories due to flawed regional pricing models.
-
-## 🚀 4. Act (Executive Recommendations)
-1. **Immediate Price Restructuring:** Enact an immediate price-floor freeze or margin correction on the Tables inventory segment, specifically within underperforming US state clusters like Texas.
-2. **Dynamic UI/UX Infrastructure:** Deploy this multi-sheet operational layout across regional managerial teams to track domestic baseline inventory targets in real-time.
-
- '- [Employee Attrition & Retention Cost Analysis](./attrition-analysis/)   
- 'Remove tracking parameters from Kaggle link'
-'Fix Kaggle link properly'
+Three earlier course projects are preserved in the [archive](archive/README.md) and are no longer featured here. Existing source files and dashboards have not been deleted.

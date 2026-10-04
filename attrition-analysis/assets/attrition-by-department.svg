@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" viewBox="0 0 960 380">
+<title id="title">Rate and headcount answer different questions</title>
+<desc id="desc">Employee attrition rate by department; row labels include leavers / headcount</desc>
+<rect width="100%" height="100%" fill="#F7F8F5"/>
+<text x="42" y="52" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#173D3A">Rate and headcount answer different questions</text>
+<text x="42" y="84" font-family="Arial, sans-serif" font-size="14" fill="#5B6B69">Employee attrition rate by department; row labels include leavers / headcount</text>
+<text x="42" y="161" font-family="Arial, sans-serif" font-size="15" fill="#263A38">Sales (92/446)</text>
+<rect x="255" y="138" width="500" height="24" rx="5" fill="#E3E9E5"/>
+<rect x="255" y="138" width="500.0" height="24" rx="5" fill="#276A75"/>
+<text x="769" y="156" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#173D3A">20.6%</text>
+<text x="922" y="156" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6B69">446</text>
+<text x="42" y="215" font-family="Arial, sans-serif" font-size="15" fill="#263A38">Human Resources (12/63)</text>
+<rect x="255" y="192" width="500" height="24" rx="5" fill="#E3E9E5"/>
+<rect x="255" y="192" width="461.7" height="24" rx="5" fill="#276A75"/>
+<text x="769" y="210" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#173D3A">19.1%</text>
+<text x="922" y="210" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6B69">63</text>
+<text x="42" y="269" font-family="Arial, sans-serif" font-size="15" fill="#263A38">R&amp;D (133/961)</text>
+<rect x="255" y="246" width="500" height="24" rx="5" fill="#E3E9E5"/>
+<rect x="255" y="246" width="335.4" height="24" rx="5" fill="#276A75"/>
+<text x="769" y="264" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#173D3A">13.8%</text>
+<text x="922" y="264" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6B69">961</text>
+<text x="42" y="340" font-family="Arial, sans-serif" font-size="12" fill="#5B6B69">Department sizes are uneven. Compare rates and counts before prioritizing a team.</text>
+</svg>

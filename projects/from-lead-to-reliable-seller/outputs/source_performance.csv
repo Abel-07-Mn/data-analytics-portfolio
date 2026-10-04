@@ -1,0 +1,11 @@
+origin,qualified_leads,closed_deals,lead_to_won_pct,mature_closed_deals,activated_sellers_90d,activation_rate_90d_pct,qualified_to_activated_pct,median_days_to_first_delivered_order,single_seller_delivered_orders_90d,on_time_delivery_rate_pct,mean_review_score
+organic_search,2296,271,11.8,234,78,33.33,3.4,38.5,574,98.61,4.46
+paid_search,1586,195,12.3,166,83,50.0,5.23,48.0,575,95.3,4.42
+social,1350,75,5.56,65,25,38.46,1.85,45.0,174,93.68,4.39
+unknown,1159,193,16.65,180,68,37.78,5.87,45.6,475,89.89,4.11
+direct_traffic,499,56,11.22,53,21,39.62,4.21,37.2,93,94.62,4.13
+email,493,15,3.04,13,5,38.46,1.01,53.2,16,93.75,4.53
+referral,284,24,8.45,22,8,36.36,2.82,37.4,31,100.0,4.52
+other,150,4,2.67,4,1,25.0,0.67,9.0,60,96.67,3.68
+display,118,6,5.08,6,1,16.67,0.85,62.3,1,100.0,4.0
+other_publicities,65,3,4.62,3,0,0.0,0.0,,0,,

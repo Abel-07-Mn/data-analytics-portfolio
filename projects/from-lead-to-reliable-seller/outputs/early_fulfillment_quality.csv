@@ -1,0 +1,11 @@
+origin,mature_closed_deals,single_seller_delivered_orders_90d,on_time_orders,on_time_delivery_rate_pct,orders_with_review,mean_review_score
+organic_search,234,574,566,98.61,571,4.46
+paid_search,166,575,548,95.3,574,4.42
+social,65,174,163,93.68,174,4.39
+unknown,180,475,427,89.89,470,4.11
+direct_traffic,53,93,88,94.62,92,4.13
+email,13,16,15,93.75,15,4.53
+referral,22,31,31,100.0,31,4.52
+other,4,60,58,96.67,60,3.68
+display,6,1,1,100.0,1,4.0
+other_publicities,3,0,0,,0,

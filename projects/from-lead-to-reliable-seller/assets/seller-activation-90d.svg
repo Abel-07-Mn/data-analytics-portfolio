@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" viewBox="0 0 1000 526">
+<title id="title">Paid search leads activated more often, but later</title>
+<desc id="desc">Share of mature closed deals with a delivered order within 90 days of the win date</desc>
+<rect width="100%" height="100%" fill="#F7F8F5"/>
+<text x="48" y="55" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#173D3A">Paid search leads activated more often, but later</text>
+<text x="48" y="88" font-family="Arial, sans-serif" font-size="15" fill="#5B6B69">Share of mature closed deals with a delivered order within 90 days of the win date</text>
+<text x="48" y="172" font-family="Arial, sans-serif" font-size="15" fill="#263A38">Paid Search</text>
+<rect x="250" y="150" width="580" height="22" rx="5" fill="#E3E9E5"/>
+<rect x="250" y="150" width="580.0" height="22" rx="5" fill="#176B67"/>
+<text x="846" y="167" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#173D3A">50.0%</text>
+<text x="952" y="167" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6B69">n = 166 mature deals</text>
+<text x="48" y="220" font-family="Arial, sans-serif" font-size="15" fill="#263A38">Direct Traffic</text>
+<rect x="250" y="198" width="580" height="22" rx="5" fill="#E3E9E5"/>
+<rect x="250" y="198" width="459.6" height="22" rx="5" fill="#176B67"/>
+<text x="846" y="215" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#173D3A">39.6%</text>
+<text x="952" y="215" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6B69">n = 53 mature deals</text>
+<text x="48" y="268" font-family="Arial, sans-serif" font-size="15" fill="#263A38">Social</text>
+<rect x="250" y="246" width="580" height="22" rx="5" fill="#E3E9E5"/>
+<rect x="250" y="246" width="446.1" height="22" rx="5" fill="#176B67"/>
+<text x="846" y="263" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#173D3A">38.5%</text>
+<text x="952" y="263" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6B69">n = 65 mature deals</text>
+<text x="48" y="316" font-family="Arial, sans-serif" font-size="15" fill="#263A38">Unknown</text>
+<rect x="250" y="294" width="580" height="22" rx="5" fill="#E3E9E5"/>
+<rect x="250" y="294" width="438.2" height="22" rx="5" fill="#176B67"/>
+<text x="846" y="311" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#173D3A">37.8%</text>
+<text x="952" y="311" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6B69">n = 180 mature deals</text>
+<text x="48" y="364" font-family="Arial, sans-serif" font-size="15" fill="#263A38">Referral</text>
+<rect x="250" y="342" width="580" height="22" rx="5" fill="#E3E9E5"/>
+<rect x="250" y="342" width="421.8" height="22" rx="5" fill="#176B67"/>
+<text x="846" y="359" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#173D3A">36.4%</text>
+<text x="952" y="359" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6B69">n = 22 mature deals</text>
+<text x="48" y="412" font-family="Arial, sans-serif" font-size="15" fill="#263A38">Organic Search</text>
+<rect x="250" y="390" width="580" height="22" rx="5" fill="#E3E9E5"/>
+<rect x="250" y="390" width="386.6" height="22" rx="5" fill="#176B67"/>
+<text x="846" y="407" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#173D3A">33.3%</text>
+<text x="952" y="407" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6B69">n = 234 mature deals</text>
+<text x="48" y="480" font-family="Arial, sans-serif" font-size="12" fill="#5B6B69">Only sources with at least 20 mature closed deals are shown; a complete 90-day window is required.</text>
+</svg>
