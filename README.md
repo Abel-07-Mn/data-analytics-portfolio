@@ -1,77 +1,34 @@
-# E-Commerce Customer Retention & Growth Analysis
+# Data Analytics Portfolio — Njoroge Abel Maina
 
-## 🎯 1. Ask
-**Business Problem:** The business observed an overall decline in month-over-month transactional sales volume and feared a massive customer retention crisis. 
-**Objective:** Analyze historical retail transaction data to determine if revenue drops are caused by poor customer retention or a shrinking pipeline of new user acquisitions.
+Business Management graduate with hands-on experience in sales, stock, and business data across retail and industrial settings, and a Google Data Analytics Professional Certificate. Skilled in SQL, Python (pandas), Excel, and Tableau, with a focus on turning raw business data into clear, actionable findings.
 
-## 🗄️ 2. Prepare & Process
-* **Dataset:** 541,909 raw transactional records from a UK-based online retail store.
-* **Data Cleaning (SQL):** Handled data quality issues by dropping 135,080 records with missing `CustomerID` attributes, eliminating exact row duplicates using `DISTINCT`, and filtering out negative values in `Quantity` and `UnitPrice` representing system test errors or cancellations. 
-* **Final Pristine Dataset:** 392,692 high-quality analytical rows.
-
-## 📈 3. Analyze & Share
-Using advanced SQL Window Functions (cohort partitioning) and Google BigQuery, I isolated the exact month each customer made their first purchase to split the consumer base into "New" vs. "Returning" cohorts.
-
-* **Interactive Dashboard:** [👉 Click here to view my interactive Tableau Dashboard](https://public.tableau.com/views/E-CommerceCustomerRetentionAnalysis/Sheet1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-* * **Executive Presentation:** [📊 Click here to view the Google Slides Deck](https://docs.google.com/presentation/d/1ChNI6ouefXILf5Mp1zrqnRgyvR56voNWBn8Elvog9Lg/edit?usp=sharing)
-
-
-**Key Finding:** The analysis disproved the initial retention panic. In peak operational months like June 2011, returning customers accounted for over 75% of the total active shopping audience (749 returning vs. 242 new). The real revenue driver is seasonal holiday surges, masking a steady drop in new user acquisition during off-peak seasons.
-
-## 🚀 4. Act (Business Recommendations)
-1. **Pivot Marketing Budget:** Shift capital away from retention campaigns and heavily target top-of-funnel *New Customer Acquisition* during slow mid-year periods (Q2/Q3).
-2. **First-Purchase Incentives:** Introduce introductory discounts or welcome bundles to increase the shrinking baseline cohort sizes observed mid-year.
-3. **Reward VIP Cohorts:** Design an automated loyalty tier targeting the high-performing 75% returning customer base to increase their average order value (AOV).
+📧 abellmaina@gmail.com | [LinkedIn](https://www.linkedin.com/in/abel-njoroge/)
 
 ---
 
-# Global Health Longevity Drivers Analysis (Social Good Case Study)
+## Projects
 
-## 🎯 1. Ask
-**Business/Social Problem:** Determining what socioeconomic factors actually drive human longevity to help global health organizations allocate resources effectively.
-**Objective:** Analyze World Health Organization (WHO) historical records using advanced statistical scripting to identify variables with the highest correlation to life expectancy.
+### 1. [Employee Attrition & Retention Cost Analysis](./attrition-analysis/)
+**Tools:** Python (pandas), Kaggle Notebook
 
-## 🗄️ 2. Prepare & Process
-* **Dataset:** Historical global health metrics compiled by the WHO across 193 countries.
-* **Data Engineering (Python):** 
-  * Cleaned hidden trailing whitespace characters from columns using `.str.strip()`.
-  * Preserved data integrity by handling missing metrics via **Median Imputation** (`.fillna()`) across 448 rows of missing GDP data and 10 rows of missing Life Expectancy metrics.
+Analyzed IBM's HR Employee Attrition dataset (1,470 employees) to quantify the business cost of staff turnover. Found that overtime is roughly 3x more predictive of attrition than job satisfaction, and estimated the total cost of attrition at approximately **$6.8M** using an industry-standard 50% replacement-cost model.
 
-## 📈 3. Analyze & Share
-Using **Python (Pandas, NumPy, Seaborn, and Matplotlib)**, I calculated a Pearson Correlation Matrix and engineered an automated linear regression scatter model.
+### 2. [Global Superstore: SQL Profitability Analysis](./sql-retail-profitability-analysis/)
+**Tools:** SQL (SQLite), Python (pandas), Kaggle Notebook
 
-* **Interactive Code Workspace:**  [🐍 Click here to view my Python Jupyter Notebook on Kaggle](https://www.kaggle.com/code/abelmaina/the-global-health-analytics-case-study)
+Used SQL queries to analyze 51,290 orders from a global retailer, answering five business questions about regional, product, and customer profitability. Discovered that one specific product line (Tables) was losing money company-wide — and traced the cause directly to excessive discounting, not the product itself.
 
-**Key Finding:** The analysis uncovered a powerful positive correlation of **0.75 between years of Schooling and Life Expectancy**, vastly outperforming raw economic indicators like GDP. This visually and mathematically proves that educational infrastructure is a superior long-term predictor of public health outcomes compared to isolated national wealth.
+### 3. [Global Superstore: Profitability & Discount Dashboard](./tableau-profitability-dashboard/)
+**Tools:** Tableau Public
 
-## 🚀 4. Act (Strategic Policy Recommendations)
-1. **Prioritize Educational Capital:** Advise international development funds to heavily tie health grants to national schooling attendance infrastructure.
-2. **Targeted Off-Peak Health Interventions:** Allocate specific preventative medical resources to regions displaying declining schooling metrics before adult mortality rates begin to spike.
+An interactive dashboard built on the same Global Superstore dataset, visualizing the SQL project's findings — profit by region, profit by product sub-category, and the discount-vs-profit relationship behind the Tables product line's losses. [View the live dashboard →](https://public.tableau.com/app/profile/abel.maina/viz/GlobalSuperstoreProfitabilityDashboard_17913524628970/Dashboard1?publish=yes)
 
 ---
 
-# US Retail Sales Operations & Profitability Dashboard (Business Intelligence Case Study)
+## Skills
 
-## 🎯 1. Ask
-**Business Problem:** A domestic retail firm lacked unified visualization tools to track its operational profitability, resulting in masked financial losses across specific US geographic zones and product categories.
-**Objective:** Design a dynamic, interactive executive BI dashboard that unifies domestic market metrics and isolates underperforming financial nodes for senior management intervention.
-
-## 🗄️ 2. Prepare & Process
-* **Dataset:** US Superstore Sales and Transaction dataset containing over 9,000 multi-field order records.
-* **BI Architecture (Tableau):** Engineered clean spatial configurations mapped down to localized US state bubbles, built custom sub-category ranking modules, and configured dynamic cross-sheet relational filters.
-
-## 📈 3. Analyze & Share
-I combined isolated data metrics into a unified, interactive Executive Dashboard interface focused on US territories.
-
-* **Interactive Dashboard Portal:** [📊 Click here to view my Live Enterprise Dashboard on Tableau Public](https://public.tableau.com/views/EnterpriseSalesProfitabilityDashboard/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-
-**Key Finding:** The dashboard immediately exposed critical operational "leaks." While top-line national revenue appeared healthy, geographic analysis isolated deep operational losses in states like Texas. By utilizing cross-filtering actions, I isolated the exact root cause: the **Tables sub-category** represents a systemic profit drain across low-margin US territories due to flawed regional pricing models.
-
-## 🚀 4. Act (Executive Recommendations)
-1. **Immediate Price Restructuring:** Enact an immediate price-floor freeze or margin correction on the Tables inventory segment, specifically within underperforming US state clusters like Texas.
-2. **Dynamic UI/UX Infrastructure:** Deploy this multi-sheet operational layout across regional managerial teams to track domestic baseline inventory targets in real-time.
-   
-- [Employee Attrition & Retention Cost Analysis](./attrition-analysis/)   
- 
-
-- [Global Superstore: SQL Profitability Analysis](./sql-retail-profitability-analysis/README.md) — SQL-based analysis identifying a discount-driven profit loss in a specific product line, using a 51,000-row global retail dataset.
+- **SQL:** aggregate functions, multi-column grouping, CASE statements, filtering
+- **Python:** pandas (data cleaning, groupby analysis, cost modeling)
+- **Tableau:** interactive dashboards, filter actions, scatter/trend analysis
+- **Excel:** formulas, pivot tables, data cleaning
+- **Business skills:** inventory monitoring, supplier records, sales documentation (from prior roles in retail and industrial settings)
