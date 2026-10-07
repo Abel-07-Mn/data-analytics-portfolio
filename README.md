@@ -70,8 +70,8 @@ I combined isolated data metrics into a unified, interactive Executive Dashboard
 ## 🚀 4. Act (Executive Recommendations)
 1. **Immediate Price Restructuring:** Enact an immediate price-floor freeze or margin correction on the Tables inventory segment, specifically within underperforming US state clusters like Texas.
 2. **Dynamic UI/UX Infrastructure:** Deploy this multi-sheet operational layout across regional managerial teams to track domestic baseline inventory targets in real-time.
-
- '- [Employee Attrition & Retention Cost Analysis](./attrition-analysis/)   
+   
+- [Employee Attrition & Retention Cost Analysis](./attrition-analysis/)   
  
 
 - [Global Superstore: SQL Profitability Analysis](./sql-retail-profitability-analysis/README.md) — SQL-based analysis identifying a discount-driven profit loss in a specific product line, using a 51,000-row global retail dataset.
